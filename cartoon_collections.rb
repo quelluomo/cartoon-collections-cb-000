@@ -20,5 +20,5 @@ def find_the_cheese(food)
     if cheese == cheese_types.any?
       return cheese
     end
-  end    
+  end
 end
