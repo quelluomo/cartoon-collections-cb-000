@@ -5,7 +5,7 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(shouts)
-  shouts.collect.capitalize do |shout|
+  shouts.collect.first.upcase do |shout|
     shout + "!"
   end
 end
