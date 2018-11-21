@@ -11,7 +11,7 @@ def summon_captain_planet(shouts)
 end
 
 def long_planeteer_calls(calls)
-  return true if 
+  return true if
   calls[i].length > 4
   end
 end
