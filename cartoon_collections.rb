@@ -2,9 +2,9 @@ def roll_call_dwarves(dwarves)
   i = 0
   list = []
   while i < dwarves.length
-    list << yield(dwarves[i])
+    list.collect.with_index(dwarves)
     i +=1
-    puts dwarves[i]
+    puts dwarves
   end
 
 end
