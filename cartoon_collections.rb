@@ -4,7 +4,7 @@ def roll_call_dwarves(dwarves)
   while i < dwarves.length
     list.collect.with_index(dwarves)
     i +=1
-    puts "#{i+1}. #{dwarves}"
+    puts "#{i+1}. #{dwarves[i]}"
   end
 
 end
