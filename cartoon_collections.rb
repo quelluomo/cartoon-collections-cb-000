@@ -8,6 +8,7 @@ def summon_captain_planet(shouts)
   shouts.collect.first.upcase do |shout|
     shout + "!"
   end
+  shouts
 end
 
 def long_planeteer_calls# code an argument here
